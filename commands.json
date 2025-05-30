@@ -1,0 +1,17 @@
+{
+    "list directory": "dir /B",
+    "list files": "dir /B",
+    "list file": "dir /B",
+    "list": "dir /B",
+    "show": "dir",
+    "move to ([0-9]+)": "cd_index",
+    "create folder (.*)": "mkdir",
+    "create folder": "mkdir default",
+    "create file (.*)": "echo.>",
+    "create file": "echo.>default.txt",
+    "go back": "cd ..",
+    "go home": "cd ",
+    "stop": "stop_listening",
+    "delete file number ([0-9]+)": "delete_file_index",
+    "redo the deletion": "redo_deletion"
+}
